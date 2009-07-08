@@ -8,7 +8,7 @@ This tiny ruby script patches specific files in application bundles, it reads al
 ## Usage
 
 1. Create xml file with all information, an example one is patches.xml. The structure is simple:
-<pre>
+-------
 <patches>
 	<patch app="YourAppName" version="VersionNumber">
 		<file path="Contents/MacOS/HelloWorld">
@@ -20,7 +20,7 @@ This tiny ruby script patches specific files in application bundles, it reads al
 		</file>	
 	</patch>
 </patches>
-</pre>
+-------
 <patches> can contain multiple <patch>-tags, as well as <patch> can contain more than one <file>-tags, <file> can contain multiple <md5>-tags and last but not least multiple <code>-tags.
 
 2. Call patcher.rb with 2 parameters: $PathToApplication $PathToPatchFile
