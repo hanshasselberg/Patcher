@@ -9,9 +9,9 @@ This tiny ruby script patches specific files in application bundles, it reads al
 
 1. Create xml file with all information, an example one is patches.xml. The structure is simple:
 <pre>
-<patches>
-	<patch app="YourAppName" version="VersionNumber">
-		<file path="Contents/MacOS/HelloWorld">
+\<patches>
+	\<patch app="YourAppName" version="VersionNumber">
+		\<file path="Contents/MacOS/HelloWorld">
 			<md5>md5 value of original file</md5>
 			<code>
 				<original>code to patch</original>
