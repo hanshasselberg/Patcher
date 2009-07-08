@@ -1,0 +1,11 @@
+<patches>
+	<patch app="HelloWorld" version="1">
+		<file path="Contents/MacOS/HelloWorld">
+			<md5>3ae4566052bc974ec2bf9d191c2b2c4a</md5>
+			<code>
+				<original>0x83 0xf8 0x0b 0xb8 0x40 0x20 0x00 0x00</original>
+				<patched>0x83 0xf8 0x01 0xb8 0x40 0x20 0x00 0x00</patched>
+			</code>
+		</file>	
+	</patch>
+</patches>
