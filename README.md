@@ -23,6 +23,7 @@ This tiny ruby script patches specific files in application bundles, it reads al
 &lt;/patches&gt;
 </pre>
 &lt;patches&gt; can contain multiple &lt;patch&gt;-tags, as well as &lt;patch&gt; can contain more than one &lt;file&gt;-tags, &lt;file&gt; can contain multiple &lt;md5&gt;-tags and last but not least multiple &lt;code&gt;-tags.
+The original code should contain enough code to identify the correct location. Then the patched code replaces the original byte by byte from the beginning (please take a look at the example).
 
 2. Call patcher.rb with 2 parameters: $PathToApplication $PathToPatchFile
 
