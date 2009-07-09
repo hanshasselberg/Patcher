@@ -40,9 +40,6 @@ end
 app_path = $*[0]
 patch_path = $*[1]
 
-app_path = "HelloWorld.app"
-patch_path = "patches.xml"
-
 raise "Usage #{$0} <executable> <patch>" if app_path.nil? or patch_path.nil?
 
 app_dir = Dir.new(app_path)
