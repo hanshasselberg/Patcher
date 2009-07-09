@@ -35,7 +35,7 @@ There is an example application "HelloWorld.app" and a corresponding xml-file. F
 
 ## Acknowledgment
 
-Torsten wrote the very first patch script, which inspired me to pimp it up a bit. The sample Application is taken from Andrew Nesbitt's blog: http://teabass.com/hello-world-in-cocoa/ , which was modified by me, to demonstrate how the patcher works.
+Torsten wrote the very first patch script, which inspired me to pimp it a bit. The sample application is taken from Andrew Nesbitt's blog: http://teabass.com/hello-world-in-cocoa/ , which was modified by me, to demonstrate how the patcher works.
 
 ## Limitations
 
